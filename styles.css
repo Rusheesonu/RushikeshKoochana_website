@@ -968,6 +968,24 @@ body {
     transform: translateY(-3px);
 }
 
+.demo-note {
+    margin-top: var(--spacing-lg);
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: rgba(52, 199, 89, 0.1);
+    border: 1px solid rgba(52, 199, 89, 0.2);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 0.9rem;
+    color: var(--secondary-gray);
+}
+
+.demo-note i {
+    color: var(--green-accent);
+    font-size: 1rem;
+}
+
 .spotlight-visual {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     padding: var(--spacing-xl);
