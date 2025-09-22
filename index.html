@@ -184,6 +184,109 @@
     <section id="projects" class="section projects">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
+            
+            <!-- Spotlight Project -->
+            <div class="spotlight-project">
+                <div class="spotlight-badge">⭐ FLAGSHIP PROJECT</div>
+                <div class="spotlight-content">
+                    <div class="spotlight-info">
+                        <h3 class="spotlight-title">Stealth-Scraper</h3>
+                        <p class="spotlight-subtitle">Advanced Web Scraping Framework with Anti-Detection</p>
+                        <p class="spotlight-description">
+                            Production-grade web scraping framework built with cutting-edge stealth technology. Features advanced anti-bot bypassing, 
+                            distributed proxy rotation, intelligent retry mechanisms, and browser fingerprinting evasion. Successfully deployed in enterprise 
+                            environments processing millions of requests daily with 99.8% success rate.
+                        </p>
+                        
+                        <div class="spotlight-features">
+                            <div class="feature-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Anti-Bot Detection</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-network-wired"></i>
+                                <span>Proxy Rotation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-fingerprint"></i>
+                                <span>Fingerprint Evasion</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-robot"></i>
+                                <span>CAPTCHA Solving</span>
+                            </div>
+                        </div>
+                        
+                        <div class="spotlight-tech">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Playwright</span>
+                            <span class="tech-badge">Selenium</span>
+                            <span class="tech-badge">Docker</span>
+                            <span class="tech-badge">Redis</span>
+                            <span class="tech-badge">AsyncIO</span>
+                        </div>
+                        
+                        <div class="spotlight-stats">
+                            <div class="stat">
+                                <span class="stat-value">1M+</span>
+                                <span class="stat-label">Pages/Day</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">99.8%</span>
+                                <span class="stat-label">Success Rate</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">500+</span>
+                                <span class="stat-label">Sites Supported</span>
+                            </div>
+                        </div>
+                        
+                        <div class="spotlight-links">
+                            <a href="https://github.com/Rusheesonu/Stealth-Scraper" target="_blank" class="spotlight-btn primary">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                            <a href="https://rusheesonu.github.io/Stealth-Scraper/" target="_blank" class="spotlight-btn secondary">
+                                <i class="fas fa-book"></i> Documentation
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="spotlight-visual">
+                        <div class="code-preview">
+                            <div class="code-header">
+                                <div class="code-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <span class="code-title">stealth_scraper.py</span>
+                            </div>
+                            <pre class="code-block"><code><span class="keyword">from</span> stealth_scraper <span class="keyword">import</span> StealthSession
+
+<span class="keyword">async with</span> <span class="function">StealthSession</span>() <span class="keyword">as</span> session:
+    <span class="comment"># Automatic proxy rotation & fingerprinting</span>
+    response = <span class="keyword">await</span> session.<span class="function">get</span>(
+        url=<span class="string">"https://protected-site.com"</span>,
+        bypass_cloudflare=<span class="boolean">True</span>,
+        solve_captcha=<span class="boolean">True</span>
+    )
+    data = <span class="keyword">await</span> response.<span class="function">extract</span>()</code></pre>
+                        </div>
+                        
+                        <div class="performance-chart">
+                            <div class="chart-title">Success Rate Over Time</div>
+                            <div class="chart-bars">
+                                <div class="bar" style="--height: 95%;"><span>Jan</span></div>
+                                <div class="bar" style="--height: 97%;"><span>Feb</span></div>
+                                <div class="bar" style="--height: 99%;"><span>Mar</span></div>
+                                <div class="bar" style="--height: 99.8%;"><span>Apr</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="section-subtitle">Other Projects</h3>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-icon">
