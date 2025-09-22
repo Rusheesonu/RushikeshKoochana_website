@@ -818,6 +818,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     min-height: 500px;
+    gap: 0;
+}
+
+@media (max-width: 1024px) {
+    .spotlight-content {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
 }
 
 .spotlight-info {
@@ -825,6 +833,18 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .spotlight-info {
+        padding: var(--spacing-xl);
+    }
+}
+
+@media (max-width: 768px) {
+    .spotlight-info {
+        padding: var(--spacing-lg);
+    }
 }
 
 .spotlight-title {
@@ -835,6 +855,12 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .spotlight-title {
+        font-size: 2rem;
+    }
 }
 
 .spotlight-subtitle {
@@ -856,6 +882,13 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-lg);
+}
+
+@media (max-width: 768px) {
+    .spotlight-features {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
 }
 
 .feature-item {
@@ -907,6 +940,14 @@ body {
     display: flex;
     gap: var(--spacing-xl);
     margin-bottom: var(--spacing-xl);
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .spotlight-stats {
+        gap: var(--spacing-lg);
+        justify-content: space-between;
+    }
 }
 
 .spotlight-stats .stat {
@@ -931,6 +972,14 @@ body {
 .spotlight-links {
     display: flex;
     gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .spotlight-links {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
 }
 
 .spotlight-btn {
@@ -993,6 +1042,15 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: var(--spacing-xl);
+    position: relative;
+    overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+    .spotlight-visual {
+        padding: var(--spacing-lg);
+        gap: var(--spacing-lg);
+    }
 }
 
 .code-preview {
@@ -1070,6 +1128,14 @@ body {
     border-radius: var(--radius-lg);
     padding: var(--spacing-lg);
     box-shadow: var(--shadow-md);
+    max-width: 100%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .performance-chart {
+        padding: var(--spacing-md);
+    }
 }
 
 .chart-title {
@@ -1085,6 +1151,14 @@ body {
     justify-content: space-around;
     height: 150px;
     gap: var(--spacing-md);
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .chart-bars {
+        height: 120px;
+        gap: var(--spacing-sm);
+    }
 }
 
 .bar {
