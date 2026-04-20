@@ -107,11 +107,11 @@ export const experience: Experience[] = [
     summary:
       "First engineering hire. Built distributed crawling infra from scratch and led a 4-person team.",
     achievements: [
-      "Recruited and led 4-person data engineering team; established code review and eng best practices.",
-      "Designed distributed crawling infrastructure scaling to 500+ sites with 99% success rate and 2M+ product updates daily.",
-      "Implemented fault-tolerant ETL with Airflow + AWS Lambda hitting 99.9% data-freshness SLA.",
-      "Shipped CI/CD via GitHub Actions + Docker: deploy time 2h → 15m; enabled 3+ daily releases.",
-      "Built Prometheus + Grafana monitoring that cut incident response time by 70%.",
+      "Built distributed crawling infrastructure from scratch as first engineering hire — scaled to 500+ websites with 99% success rate handling 2M+ product updates daily.",
+      "Implemented fault-tolerant, async ETL pipelines using Airflow and AWS Lambda achieving 99.9% data freshness SLA; designed for failure-isolation and automatic retry at every stage.",
+      "Built Prometheus + Grafana monitoring stack for real-time crawler health visibility, reducing incident response time by 70%.",
+      "Established CI/CD with GitHub Actions and Docker, reducing deployment time from 2 hours → 15 minutes enabling 3+ daily production releases.",
+      "Recruited and led a 4-person data engineering team; established code review standards, architectural patterns, and engineering best practices from the ground up.",
     ],
     stack: ["Python", "Node.js", "Airflow", "Docker", "AWS (Lambda, ECS, S3)", "CI/CD", "REST APIs", "React"],
     metrics: [
