@@ -113,8 +113,7 @@ export default function Experience() {
   return (
     <section className="py-24">
       <SectionHeading id="experience" kicker="dag.runs" title="execution history.">
-        Each role is a task in the career DAG — rendered like an Airflow task instance. Green means
-        shipped and still running in prod.
+        Five years. Four teams. Millions of records a day.
       </SectionHeading>
 
       <div className="relative">

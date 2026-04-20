@@ -18,8 +18,7 @@ export default function Projects() {
   return (
     <section className="py-24">
       <SectionHeading id="projects" kicker="task.instances" title="selected projects.">
-        Side quests and production work that shaped how I build. Click any card for the full task
-        instance — details, logs, and the DAG definition.
+        Side quests, prod work, and a few things I shipped for fun.
       </SectionHeading>
 
       <div className="grid gap-5 md:grid-cols-2">

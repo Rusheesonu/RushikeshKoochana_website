@@ -5,9 +5,7 @@ import { skills } from "../data/resume";
 export default function Skills() {
   return (
     <section className="py-24">
-      <SectionHeading id="skills" kicker="schema.sql" title="tech stack, shaped like a schema.">
-        The tools I reach for. Categorized like a table definition.
-      </SectionHeading>
+      <SectionHeading id="skills" kicker="schema.sql" title="tech stack, shaped like a schema." />
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
