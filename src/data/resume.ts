@@ -113,7 +113,7 @@ export const experience: Experience[] = [
       "Established CI/CD with GitHub Actions and Docker, reducing deployment time from 2 hours → 15 minutes enabling 3+ daily production releases.",
       "Recruited and led a 4-person data engineering team; established code review standards, architectural patterns, and engineering best practices from the ground up.",
     ],
-    stack: ["Python", "Node.js", "Airflow", "Docker", "AWS (Lambda, ECS, S3)", "CI/CD", "REST APIs", "React"],
+    stack: ["Python", "Node.js", "Airflow", "Docker", "AWS (Lambda, ECS, S3)", "RabbitMQ", "Prometheus", "Grafana", "CI/CD"],
     metrics: [
       { label: "team led", value: "4" },
       { label: "updates / day", value: "2M+" },
